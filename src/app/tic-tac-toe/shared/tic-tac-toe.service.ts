@@ -5,19 +5,19 @@ import { Injectable } from '@angular/core';
 })
 export class TicTacToeService {
   
-  private readonly TAM_TAB: number = 3;
+  private readonly SIZE_BOARD: number = 3;
   private readonly X: number = 1;
   private readonly O: number = 2;
-  private readonly VAZIO: number = 0;
+  private readonly EMPTY: number = 0;
 
-  private tabuleiro: any;
-  private numMovimentos?: number;
-  private vitoria: any;
+  private board: any;
+  private numActions?: number;
+  private victory: any;
 
-  private _jogador?: number;
-  private _showInicio?: boolean;
-  private _showTabuleiro?: boolean;
-  private _showFinal?: boolean
+  private _player?: number;
+  private _showStart?: boolean;
+  private _showBoard?: boolean;
+  private _showEnd?: boolean
   
   constructor() { }
 }
