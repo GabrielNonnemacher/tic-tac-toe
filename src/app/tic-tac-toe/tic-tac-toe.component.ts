@@ -29,4 +29,20 @@ export class TicTacToeComponent implements OnInit {
   startGame(): void {
     this.service.startGame();
   }
+
+  play(positionX: number, positionY: number): void {
+    this.service.play(positionX, positionY);
+  }
+
+  showX(positionX: number, positionY: number): boolean {
+    return this.service.showX(positionX, positionY);
+  }
+
+  showO(positionX: number, positionY: number): boolean {
+    return this.service.showO(positionX, positionY);
+  }
+
+  showVictory(positionX: number, positionY: number): boolean {
+    return this.service.showVictory(positionX, positionY);
+  }
 }
