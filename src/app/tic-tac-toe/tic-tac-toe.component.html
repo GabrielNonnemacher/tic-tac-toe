@@ -1,14 +1,16 @@
 <div>
     <h2>Jogo da velha</h2>
 
-    <div class="principal">
+    <div class="principal"
+         *ngIf="showStart">
         <a href="#"
-           class="botao">
+           class="botao"
+           (click)="startGame()">
             Iniciar
         </a>
     </div>
 
-    <div>
+    <div *ngIf="showBoard">
         <ul>
             <li class="kz-border-bottom kz-border-right"></li>
             <li class="kz-border-bottom kz-border-right"></li>
@@ -22,7 +24,7 @@
         </ul>
     </div>
 
-    <div>
+    <div *ngIf="showEnd">
         <span>
             <p>Você venceu!!!</p>
             <p>Você perdeu...</p>

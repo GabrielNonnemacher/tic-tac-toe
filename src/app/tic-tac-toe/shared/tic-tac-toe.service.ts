@@ -15,9 +15,9 @@ export class TicTacToeService {
   private victory: any;
 
   private _player!: number;
-  private _showStart?: boolean;
-  private _showBoard?: boolean;
-  private _showEnd?: boolean
+  private _showStart!: boolean;
+  private _showBoard!: boolean;
+  private _showEnd!: boolean
 
   constructor() {}
 
@@ -37,19 +37,19 @@ export class TicTacToeService {
     }
   }
 
-  get showStart(): boolean | undefined {
+  get showStart(): boolean {
     return this._showStart;
   }
 
-  get showBoard(): boolean | undefined {
+  get showBoard(): boolean {
     return this._showBoard;
   }
 
-  get showEnd(): boolean | undefined {
+  get showEnd(): boolean {
     return this._showEnd;
   }
 
-  get player(): number | undefined {
+  get player(): number {
     return this._player;
   }
 
