@@ -1,12 +1,12 @@
 <div>
-    <h2>Jogo da velha</h2>
+    <h2>Tic-Tac-Toe</h2>
 
     <div class="main"
          *ngIf="showStart">
         <a href="#"
            class="button"
            (click)="startGame()">
-            Iniciar
+            Start
         </a>
     </div>
 
@@ -15,66 +15,70 @@
             <li class="kz-border-bottom kz-border-right"
                 [class.kz-img-x]="showX(0, 0)"
                 [class.kz-img-o]="showO(0, 0)"
-                [class.kz-cor-vitoria]="showVictory(0, 0)"
+                [class.kz-victory-color]="showVictory(0, 0)"
                 (click)="play(0, 0)"></li>
 
             <li class="kz-border-bottom kz-border-right"
                 [class.kz-img-x]="showX(0, 1)"
                 [class.kz-img-o]="showO(0, 1)"
-                [class.kz-cor-vitoria]="showVictory(0, 1)"
+                [class.kz-victory-color]="showVictory(0, 1)"
                 (click)="play(0, 1)"></li>
 
             <li class="kz-border-bottom"
                 [class.kz-img-x]="showX(0, 2)"
                 [class.kz-img-o]="showO(0, 2)"
-                [class.kz-cor-vitoria]="showVictory(0, 2)"
+                [class.kz-victory-color]="showVictory(0, 2)"
                 (click)="play(0, 2)"></li>
 
             <li class="kz-border-bottom kz-border-right"
                 [class.kz-img-x]="showX(1, 0)"
                 [class.kz-img-o]="showO(1, 0)"
-                [class.kz-cor-vitoria]="showVictory(1, 0)"
+                [class.kz-victory-color]="showVictory(1, 0)"
                 (click)="play(1, 0)"></li>
 
             <li class="kz-border-bottom kz-border-right"
                 [class.kz-img-x]="showX(1, 1)"
                 [class.kz-img-o]="showO(1, 1)"
-                [class.kz-cor-vitoria]="showVictory(1, 1)"
+                [class.kz-victory-color]="showVictory(1, 1)"
                 (click)="play(1, 1)"></li>
 
             <li class="kz-border-bottom"
                 [class.kz-img-x]="showX(1, 2)"
                 [class.kz-img-o]="showO(1, 2)"
-                [class.kz-cor-vitoria]="showVictory(1, 2)"
+                [class.kz-victory-color]="showVictory(1, 2)"
                 (click)="play(1, 2)"></li>
 
             <li class="kz-border-right"
                 [class.kz-img-x]="showX(2, 0)"
                 [class.kz-img-o]="showO(2, 0)"
-                [class.kz-cor-vitoria]="showVictory(2, 0)"
+                [class.kz-victory-color]="showVictory(2, 0)"
                 (click)="play(2, 0)"></li>
 
             <li class="kz-border-right"
                 [class.kz-img-x]="showX(2, 1)"
                 [class.kz-img-o]="showO(2, 1)"
-                [class.kz-cor-vitoria]="showVictory(2, 1)"
+                [class.kz-victory-color]="showVictory(2, 1)"
                 (click)="play(2, 1)"></li>
 
             <li [class.kz-img-x]="showX(2, 2)"
                 [class.kz-img-o]="showO(2, 2)"
-                [class.kz-cor-vitoria]="showVictory(2, 2)"
+                [class.kz-victory-color]="showVictory(2, 2)"
                 (click)="play(2, 2)"></li>
         </ul>
     </div>
 
     <div *ngIf="showEnd">
         <span>
-            <p>Você venceu!!!</p>
-            <p>Você perdeu...</p>
-            <p>O jogo terminou empatado...</p>
+            <p *ngIf="player==2"
+               class="text-success">You won!!!</p>
+            <p *ngIf="player==1"
+               class="text-danger">You Lost...</p>
+            <p *ngIf="player==0"
+               class="text-blue">Game tied...</p>
             <br />
             <a href="#"
-               class="button">
+               class="button"
+               (click)="newGame()">
                 play novamente
             </a>
         </span>

@@ -12,7 +12,7 @@ div.main {
 a.button {
 	margin-top: 100px;
 	font-size: 20px;
-	background-color: lightgreen;
+	background-color: var(--success);
 	padding: 15px;
 }
 

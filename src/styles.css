@@ -1,0 +1,17 @@
+:root {
+    --danger: rgb(200, 79, 79);
+    --blue: rgb(72, 114, 213);
+    --success: rgb(66, 175, 68);
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-danger {
+    color: var(--danger);
+}
