@@ -26,6 +26,7 @@ export class TicTacToeService {
     this._showBoard = false;
     this._showEnd = false;
     this.numActions = 0;
+    this._player = this.X;
     this.victory = false;
     this.startBoard();
   }
