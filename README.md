@@ -58,7 +58,7 @@ ng build
 <br/>
 
 ## ➡️ Link
-<a href="" target="_blank" rel="noopener noreferrer">Link Tic-Tac-Toe<a/>
+<a href="https://gabriel-nonnemacher-tic-tac-toe.vercel.app" target="_blank" rel="noopener noreferrer">Link Tic-Tac-Toe<a/>
 <br/>
 
 ## 👀 Preview
