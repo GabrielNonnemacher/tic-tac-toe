@@ -7,7 +7,14 @@ A simple game made with Angular, to improve my technical skills and further stre
 
 ## ⚙️ Functionalities
 
-
+* **Start Game** : clicking on start starts the game.
+* **3x3 Board** : The game is played on a 3x3 board, providing nine possible positions for players to mark.
+* **Two Players** : The game involves one player and the machine represented by the symbols "X" and "O".
+* **Win** : If the player manages to form a line of three of their symbols consecutively horizontally, vertically or diagonally, the player has won the match.
+* **Draw** : If all nine positions on the board are filled and there is no winner, the game ends in a draw.
+* **Defeat** : If the machine manages to form a line of three of its consecutive symbols horizontally, vertically or diagonally, the player has been defeated in the game.
+* **Feedback Messages** : When the player wins or when the game ends in a draw or defeat, an informative message will be shown to the user.
+* **Game Restart** : After a game is completed the player can.
 
 <br/>
 
@@ -33,7 +40,7 @@ MIT License - see the file [LICENSE](https://github.com/GabrielNonnemacher/tic-t
 
 First copy the project to a desired folder
 ```
-git clone https://github.com/GabrielNonnemacher//tic-tac-toe.git
+git clone https://github.com/GabrielNonnemacher/tic-tac-toe.git
 ```
 Install necessary dependencies
 ```
@@ -51,7 +58,7 @@ ng build
 <br/>
 
 ## ➡️ Link
-<a href="" target="_blank" rel="noopener noreferrer">Link Calculator<a/>
+<a href="" target="_blank" rel="noopener noreferrer">Link Tic-Tac-Toe<a/>
 <br/>
 
 ## 👀 Preview
