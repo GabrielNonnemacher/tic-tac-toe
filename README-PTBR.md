@@ -58,7 +58,7 @@ ng build
 <br/>
 
 ## ➡️ Link
-<a href="" target="_blank" rel="noopener noreferrer">Link do Jogo da Velha<a/>
+<a href="https://gabriel-nonnemacher-tic-tac-toe.vercel.app" target="_blank" rel="noopener noreferrer">Link do Jogo da Velha<a/>
 <br/>
 
 ## 👀 Preview
