@@ -7,14 +7,14 @@ A simple game made with Angular, to improve my technical skills and further stre
 
 ## ⚙️ Functionalities
 
-* **Start Game** : clicking on start starts the game.
-* **3x3 Board** : The game is played on a 3x3 board, providing nine possible positions for players to mark.
-* **Two Players** : The game involves one player and the machine represented by the symbols "X" and "O".
-* **Win** : If the player manages to form a line of three of their symbols consecutively horizontally, vertically or diagonally, the player has won the match.
-* **Draw** : If all nine positions on the board are filled and there is no winner, the game ends in a draw.
-* **Defeat** : If the machine manages to form a line of three of its consecutive symbols horizontally, vertically or diagonally, the player has been defeated in the game.
-* **Feedback Messages** : When the player wins or when the game ends in a draw or defeat, an informative message will be shown to the user.
-* **Game Restart** : After a game is completed the player can.
+* **Start game**: clicking the button starts the game.
+* **3x3 Board**: The game is played on a 3x3 board, offering nine possible positions for players to mark.
+* **Two Players**: The game involves one player and the machine represented by the symbols "X" and "O".
+* **Victory**: If the player manages to form a line of three of his symbols consecutively horizontally, vertically or diagonally, the player has won the match.
+* **Draw**: If all nine positions on the board are filled and there is no winner, the game ends in a draw.
+* **Defeat**: If the machine manages to form a line of three of its consecutive symbols horizontally, vertically or diagonally, the player has been defeated in the game.
+* **Feedback Messages**: When the player wins, draws or loses, an informative message will be shown to the user.
+* **Game Restart**: After completing the game, the player can restart a new game.
 
 <br/>
 
