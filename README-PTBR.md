@@ -20,7 +20,7 @@ Um jogo simples feito em Angular, para aprimorar minhas habilidades técnicas e 
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* Angular - versão - ^16.1.0.
+* Angular - v16.1 - [Documentation](https://angular.io)
   
 <br/>
 
