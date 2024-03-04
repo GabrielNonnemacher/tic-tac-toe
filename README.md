@@ -20,7 +20,7 @@ A simple game made with Angular, to improve my technical skills and further stre
 
 ## 🛠️ Technologies and Tools
 
-* Angular - version '^16.1.0'.
+* Angular - v16.1 - [Documentation](https://angular.io)
   
 <br/>
 
